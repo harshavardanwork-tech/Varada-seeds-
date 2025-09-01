@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Page } from '../types';
 import Logo from './Logo';
@@ -26,7 +25,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               >
                 <Logo className="h-10 w-10 text-white" />
                 <h1 className="ml-2 text-xl font-bold tracking-tight">
-                  AgriSeed Genetics
+                  Varada Seeds
                 </h1>
               </div>
               <p className="text-gray-300 text-sm">
@@ -59,7 +58,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li className="flex items-center">
                 <MailIcon className="h-5 w-5 mr-3 flex-shrink-0" />
-                <a href="mailto:info@agriseedgenetics.com" className="hover:text-brand-light-green transition-colors">info@agriseedgenetics.com</a>
+                <a href="mailto:info@varadaseeds.com" className="hover:text-brand-light-green transition-colors">info@varadaseeds.com</a>
               </li>
             </ul>
           </div>
@@ -82,7 +81,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
         
         <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} AgriSeed Genetics. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Varada Seeds. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
