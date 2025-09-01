@@ -1,0 +1,7 @@
+components/Header.tsx
+components/Footer.tsx
+components/Logo.tsx
+components/pages/HomePage.tsx
+components/pages/AboutPage.tsx
+components/pages/ContactPage.tsx
+components/icons/MailIcon.tsx
